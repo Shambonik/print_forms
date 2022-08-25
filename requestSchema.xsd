@@ -1,0 +1,97 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Application">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ApplicationId" type="xs:long" />
+        <xs:element name="EndDateTime" type="xs:dateTime" />
+        <xs:element name="ApplicationTypeName" type="xs:string" />
+        <xs:element name="TerminationReasonId" type="xs:long" />
+        <xs:element name="ReceiverName" type="xs:string" />
+        <xs:element name="Contract">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContractNumber" type="xs:string" />
+              <xs:element name="Insurer">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TypeName" type="xs:string" />
+                    <xs:element name="FirstName" type="xs:string" />
+                    <xs:element name="MiddleName" type="xs:string" />
+                    <xs:element name="LastName" type="xs:string" />
+                    <xs:element name="Name" type="xs:string" />
+                    <xs:element name="BirthDate" type="xs:date" />
+                    <xs:element name="Address" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Applicant">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TypeName" type="xs:string" />
+              <xs:element name="RoleName" type="xs:string" />
+              <xs:element name="FirstName" type="xs:string" />
+              <xs:element name="MiddleName" type="xs:string" />
+              <xs:element name="LastName" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Phone" type="xs:string" />
+              <xs:element name="Email" type="xs:string" />
+              <xs:element name="Passport" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Refund">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RefundMethodId" type="xs:long" />
+              <xs:element name="Recipient">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TypeName" type="xs:string" />
+                    <xs:element name="RoleName" type="xs:string" />
+                    <xs:element name="StatusName" type="xs:string" />
+                    <xs:element name="FirstName" type="xs:string" />
+                    <xs:element name="MiddleName" type="xs:string" />
+                    <xs:element name="LastName" type="xs:string" />
+                    <xs:element name="Name" type="xs:string" />
+                    <xs:element name="RecipientDetails">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Phone" type="xs:string" />
+                          <xs:element name="Email" type="xs:string" />
+                          <xs:element name="Passport" type="xs:string" />
+                          <xs:element name="BankName" type="xs:string" />
+                          <xs:element name="Bic" type="xs:string" />
+                          <xs:element name="CorrespondentAccount" type="xs:string" />
+                          <xs:element name="PersonalAccountNumber" type="xs:string" />
+                          <xs:element name="BudgetIncomeCode" type="xs:string" />
+                          <xs:element name="UinCode" type="xs:string" />
+                          <xs:element name="Oktmo" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="RequiredDocuments">
+          <xs:complexType>
+            <xs:sequence>
+				<xs:element maxOccurs="unbounded" name="Document" >
+				  <xs:complexType>
+					<xs:sequence>
+					  <xs:element name="DocumentTypeName" type="xs:string" />
+					</xs:sequence>
+				  </xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		  </xs:complexType>
+		</xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

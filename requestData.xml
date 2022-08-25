@@ -1,0 +1,86 @@
+<Application>
+	<ApplicationId>10</ApplicationId>
+	<EndDateTime>2002-05-30T09:00:00</EndDateTime>
+	<ApplicationTypeName>Клиентский зал</ApplicationTypeName>
+	<TerminationReasonId>2</TerminationReasonId>
+	<ReceiverName>Пономарев Денис Николаевич</ReceiverName>
+	<Contract>
+		<ContractNumber>ASISDI341</ContractNumber>
+		<Insurer>
+			<TypeName>Физическое лицо</TypeName>
+			<FirstName>Данил</FirstName>
+			<MiddleName>Олегович</MiddleName>
+			<LastName>Кузин</LastName>
+			<Name>ООО "Кто-то делает что-то"</Name>
+			<BirthDate>2001-04-13</BirthDate>
+			<Address>Вернадского 78</Address>
+		</Insurer>
+	</Contract>
+	<Applicant>
+		<TypeName>Физическое лицо</TypeName>
+		<RoleName>Застрахованный (коллективное страхование)</RoleName>
+		<FirstName>Данил</FirstName>
+		<MiddleName>Олегович</MiddleName>
+		<LastName>Кузин</LastName>
+		<Name>ООО "Кто-то делает что-то"</Name>
+		<Phone>+79221630503</Phone>
+		<Email>email@gmail.com</Email>
+		<Passport>1234 102938</Passport>
+	</Applicant>
+	<Refund>
+		<RefundMethodId>1</RefundMethodId>
+		<Recipient>
+			<TypeName>Юридическое лицо</TypeName>
+			<RoleName>Роль</RoleName>
+			<StatusName>Бюджетная организация</StatusName>
+			<FirstName>Данил</FirstName>
+			<MiddleName>Олегович</MiddleName>
+			<LastName>Кузин</LastName>
+			<Name>ООО "Кто-то делает что-то"</Name>
+			<RecipientDetails>
+				<Phone>+79993640583</Phone>
+				<Email>email@gmail.com</Email>	
+				<Passport>1234 102938</Passport>
+				<BankName>Наименование банка</BankName>
+				<Bic>048183</Bic>
+				<CorrespondentAccount>1938481282</CorrespondentAccount>
+				<PersonalAccountNumber>23214423321323223</PersonalAccountNumber>
+				<BudgetIncomeCode>12345678901234567890</BudgetIncomeCode>
+				<UinCode>1234567890123456789012345</UinCode>
+				<Oktmo>12345678901234567890</Oktmo>
+			</RecipientDetails>
+		</Recipient>
+	</Refund>
+	<RequiredDocuments>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+		<Document>
+			<DocumentTypeName>Постановление от правоохранительных органов (Документ, подтверждающий наступление обстоятельств, прекращающих риск)</DocumentTypeName>
+		</Document>
+	</RequiredDocuments>
+</Application>
